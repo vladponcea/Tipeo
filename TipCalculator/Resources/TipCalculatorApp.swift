@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TipCalculatorApp: App {
+    
+    @AppStorage("color_scheme") private var storageColorScheme: Int = 0
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
+                .preferredColorScheme(storageColorScheme == 0 ? .light : .dark)
         }
     }
 }
