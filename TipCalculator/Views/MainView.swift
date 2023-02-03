@@ -224,7 +224,7 @@ struct MainView: View {
                     })
                 }
             }
-            .navigationTitle("Billy")
+            .navigationTitle("Tipeo")
             .navigationBarTitleDisplayMode(.large)
         }
         .tint(.primary)
