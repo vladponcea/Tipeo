@@ -54,5 +54,6 @@ struct SettingsView_Previews: PreviewProvider {
             SettingsView()
 //                .preferredColorScheme(.dark)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
