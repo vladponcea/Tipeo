@@ -228,6 +228,7 @@ struct MainView: View {
             .navigationBarTitleDisplayMode(.large)
         }
         .tint(.primary)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
     private func getTotalPerPerson() -> Double {
