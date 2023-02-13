@@ -7,6 +7,6 @@ A simple open-source bill split app.
 
 ![](https://i.imgur.com/xTsLrLc.png)
 
-Here is the app store [link](https://apps.apple.com/ro/app/tipeo/id1669516626)
+Here is the App Store [link](https://apps.apple.com/ro/app/tipeo/id1669516626)
 
 ## Author: @vladponcea
